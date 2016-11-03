@@ -1,0 +1,166 @@
+body {
+    
+background: #ECE9E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+p {
+  font-size: 16px;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+
+#topheader{
+  
+  background-color: #a38f7a;
+  border-style: solid;
+  border-color: #ECE9E6; /* fallback for old browsers */
+  border-color: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  border-color: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color:white;
+  text-align:left;
+  padding:120px;
+  padding-left: 2%;
+  margin-right:15%; 
+  margin-left:15%;
+  text-align: top;
+  font-size: 100%;
+  font-family:Verdana, Geneva, sans-serif;
+
+}
+
+
+#sidebar {
+  
+	background-color: #a38f7a;
+  
+  /*background: #EFEFBB; /* fallback for old browsers */
+  /*
+  background: -webkit-linear-gradient(to left, #EFEFBB , #D4D3DD); /* Chrome 10-25, Safari 5.1-6 
+  background: linear-gradient(to left, #EFEFBB , #D4D3DD);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+  */
+  font-family:Verdana, Geneva, sans-serif;
+  color: #f1f1f1;
+  background-size: 100%;
+	width: 20% ;
+	height: 80%;
+	
+	margin-right: 15.25%;
+  padding-left: 1%;
+  padding-right: 1%;
+  right:0;
+  position: absolute;
+  border-style: solid;
+  list-style-type: none;
+  border-color: #ECE9E6; /* fallback for old browsers */
+  border-color: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  border-color: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#sidebarHeader{
+  text-align: left;
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  font: normal 180%/normal "Anton", Helvetica, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 0 #000000 , 6px 6px 0 rgb(112,112,112) ;
+
+
+}
+
+#sidebarTxt{
+  
+  text-align: center;
+  font-size: 120%;
+  line-height:2;
+  
+
+}
+#langlist{
+  text-align: center;
+  font-size: 70%;
+  list-style-type: none;
+  margin-right: 10%;
+
+}
+#creepyGif{
+  float:right; 
+  background-image: url("personalpic.jpg");
+  background-size: 150px 150px;
+  width:150px; /*width of your image*/
+  height:150px;
+  margin-right: 2em;
+  padding-right: 6px;
+
+}
+
+#workImage{
+  float: left;
+  background-image: url("https://www.registrar.ualberta.ca/calendar/images/images-2015-2016/2015-2016-calendar-header-middle.png");
+  width:300px; /*width of your image*/
+  height:150px;
+  margin-right: 1em;
+}
+
+#whyImage{
+  float:right;
+  background-image: url("https://image.freepik.com/free-icon/shake-hands_318-23469.jpg");
+  width:150px; /*width of your image*/
+  height:150px;
+  margin-right: 1em;
+  background-size: 150px 150px;
+}
+
+#mainContent{
+	float: left;
+	width: 45%;
+	height: 100%;
+	margin-left: 15%;
+  font-family:Verdana, Geneva, sans-serif;
+  background-color: white;
+  color: #3f3f3f;
+  padding-left: 2em;
+  border-style: solid;
+  border-color: #ECE9E6; /* fallback for old browsers */
+  border-color: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  border-color: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+ul li {
+    background: #978068;
+    margin: 5%;
+}
+
+
+.rainbow {
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  font: normal 82px/normal "Anton", Helvetica, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 0 #000000 , 6px 6px 0 rgb(112,112,112) ;
+
+
+}
