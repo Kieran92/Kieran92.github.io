@@ -23,17 +23,17 @@
   ul {
     float: center;
       list-style-type: none;
-      margin: 0;
-      
-
+      margin:0 auto;
+      padding: 0;
       overflow: hidden;
       background-color: #000000;
       max-width: 100%;
+      display:table; 
   }
 
   li {
       float: left;
-      text-align: center;
+      
   }
 
   li a {
@@ -49,15 +49,19 @@
       color : #000000;
       text-decoration: none;
   }
-    #banner {
+  
+  .active{
+    background-color: #ffffff;
+    color: #000000;
+  }
+  #banner {
       position: relative;
       
       float: center;
   }
   #subBanner{
     width: 100%;
-    padding-left: 35%;
-    padding-right: 35%;
+
   }
   #welcomeText{
     
@@ -308,14 +312,14 @@ label {
 
 <div id ="banner">
   <h1> <i>&lt; Kieran_Boyle &gt;</i> </h1>
-  <div id="subBanner">
+
     <ul>
     <li><a href="/">Home</a></li>
     <li><a href="/projects.html">Projects</a></li>
     <li><a class="active" href="/contact.html">Contact</a></li>
     <li><a href="#about">About</a></li>
     </ul>
-  </div>
+
 </div>
 
 <div class = "container">

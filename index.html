@@ -8,36 +8,40 @@
 	h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 90px; font-weight: bold; letter-spacing: -10px;  text-align: center; }
 	h2 { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; text-align: left; }
 	p { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word; }
-	ul {
-		float: center;
-	    list-style-type: none;
-	    margin: 0;
-	    
-	    padding-left: 8%;
+ ul {
+    float: center;
+      list-style-type: none;
+      margin:0 auto;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000000;
+      max-width: 100%;
+      display:table; 
+  }
 
-	    overflow: hidden;
-	    background-color: #000000;
-	    max-width: 50%;
-	}
+  li {
+      float: left;
+      
+  }
 
-	li {
-	    float: left;
-	    text-align: center;
-	}
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
 
-	li a {
-	    display: block;
-	    color: white;
-	    text-align: center;
-	    padding: 14px 16px;
-	    text-decoration: none;
-	}
-
-	li a:hover {
-	    background-color: #ffffff;
-	    color : #000000;
-	    text-decoration: none;
-	}
+  li a:hover {
+      background-color: #ffffff;
+      color : #000000;
+      text-decoration: none;
+  }
+  
+  .active{
+    background-color: #ffffff;
+    color: #000000;
+  }
     #banner {
     	position: relative;
     	
@@ -69,19 +73,19 @@
 
 
 	#mainPanel{
-		width: 80%;
+		width: 100%;
 		height: 80%;
 
 		background-color: #ffffff;
-		padding-left:30px;
+		padding-left:20%;
 
 	}
 
 	.container{
 		width: 90%;
-		height: 500px;
+		height: 100%;
 		padding-top: 2%;
-		padding-left: 20%;
+
 		background-color: #ffffff;
 	}
 	.black-background {background-color:#000000;}
@@ -113,15 +117,17 @@
 <body>
 <div id ="banner">
 	<h1>  <i>&lt; Kieran_Boyle &gt;</i> </h1>
-	<div id="subBanner">
+
 		<ul>
-		<li><a class="/" href="#home">Home</a></li>
-		<li><a href="/projects.html">Projects</a></li>
-		<li><a href="/contact.html">Contact</a></li>
-		<li><a href="#about">About</a></li>
+			<li><a class="active" href="/" >Home</a></li>
+			<li><a href="/projects.html">Projects</a></li>
+			<li><a href="/contact.html">Contact</a></li>
+			<li><a href="#about">About</a></li>
 		
 		</ul>
-	</div>
+
+		
+
 </div>
 
 <div class = "container">
